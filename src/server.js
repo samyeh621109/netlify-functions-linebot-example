@@ -7,8 +7,8 @@ const serverless = require('serverless-http'); //追加
 const app = express();
 
 const config = {
-    channelSecret: process.env.CHANNEL_SECRET,
-    channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN
+    channelSecret: '1ca33b7f25ac5621c99b1b9930d1f620',
+    channelAccessToken:'v63eO0pn/0PN7ItE31RG7/alzsf96eol5s/KLpOFySD72+egcgRCVbOiIt8ONpf1I2Qyg0Lv+dU9JgThZo5S7eCI+k0nUf1wRhsnz11au/7fXQv95xLoZYwUBas8HPuBO/SMy9c+C0Tj/Ny3RebjQgdB04t89/1O/w1cDnyilFU='
 };
 
 const router = express.Router(); //ルーティング用に追加
